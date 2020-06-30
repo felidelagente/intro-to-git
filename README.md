@@ -1,7 +1,3 @@
-================
-3 States on Git |
-================
-
 # Working Directory
 - The working tree is a single checkout of one version of the project. 
 These files are pulled out of the compressed database in the Git directory 
@@ -15,7 +11,7 @@ but the phrase “staging area” works just as well.
 
 # Git Repository
 - The Git directory is where Git stores the metadata and object database for your project. 
-This is the most important part of Git, and it is what is copied when you clone a repository from another computer.git 
+This is the most important part of Git, and it is what is copied when you clone a repository from another computer.
 
 =============
 GIT BRANCHES |
@@ -35,5 +31,7 @@ GIT BRANCHES |
     * git checkout (name of the branch)
 
 - Merging a Branch
-
+    * git merge (name of the branch to merge)
+    
 - Removing a Branch
+    * git branch -d (name of the branch to delete)
